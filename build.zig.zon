@@ -1,0 +1,17 @@
+.{
+    .name = .gameboy,
+    .version = "0.1.0",
+    .fingerprint = 0xfd6064992b47f0f1,
+    .minimum_zig_version = "0.14.0",
+    .dependencies = .{
+        .sdl3 = .{
+            .url = "git+https://github.com/Gota7/zig-sdl3#714e2cf35ea9e8251b58a12efac5a3326c06712a",
+            .hash = "sdl3-0.0.1-NmT1Q4kPGAAC4bHC8YFkM9PiLUwzfeRXD1HifLR76HY7",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
